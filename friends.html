@@ -47,6 +47,85 @@
         <span class="header__icon"><i class="fas fa-cog"></i></span>
       </div>
     </header>
+    <!-- friends 콘텐츠 -->
+    <!-- friend row= 프로필한명 은 두개의 컬럼으로 이루어짐
+    컬럼1: 아바타 이름 상태메세지
+    컬럼2: 듣고있는 음악과 같은 부가정보 -->
+    <main class="friends">
+      <!-- 헤더 부분과 연결된 부분  다른 friend와 구별필요한 부분  -->
+      <header class="friends__header">
+        <div class="friends__friend friend friend--lg">
+          <!-- 컬럼1 -->
+          <div class="friend__column">
+            <!-- 프로필 사진 -->
+            <img src="images/avatar1.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <!-- 이름 -->
+              <span class="friend__name">
+                Someone
+              </span>
+              <!-- 상태창 -->
+              <span class="friend__status">
+                nomadcoders.co
+              </span>
+            </div>
+          </div>
+          <!-- 컬럼2  내용이 없어도 통일감을 위해 필요함 -->
+          <div class="friend__column"></div>
+        </div>
+      </header>
+      <!-- friends__header과 마찬가지로 일반 friend와 구별필요 -->
+      <div class="friends__plus">
+        <!-- 서브 타이틀 -->
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
+          <!-- 컬럼1 -->
+          <div class="friend__column">
+            <!-- 프로필 사진 -->
+            <img src="images/avatar1.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <!-- 이름 -->
+              <span class="friend__name">
+                Plus Friend
+              </span>
+              <!-- plus friend는 상태창 없음  -->
+            </div>
+          </div>
+          <!-- 컬럼2 -->
+          <div class="friend__column"></div>
+        </div>
+      </div>
+      <!-- 동일한 양식의 friend들의 list == 복붙하면 몇명이든 추가가능-->
+      <ul class="friends__list">
+        <!-- 서브 타이플 -->
+        <h5 class="friends__title">Friend 14</h5>
+        <!-- friend의 베이스 폼 -->
+        <li class="friends__friend friend friend--lg">
+          <!-- 컬럼1 -->
+          <div class="friend__column">
+            <img src="images/avatar1.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <!-- 이름 -->
+              <span class="friend__name">
+                Someone
+              </span>
+              <!-- 상태창 -->
+              <span class="friend__status">
+                nomadcoders.co
+              </span>
+            </div>
+          </div>
+          <!-- 컬럼2 -->
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>지독하게-FTLSLAND</span>
+              <!-- 재생 아이콘 -->
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
     <!-- 하단 네비게이션바 -->
     <nav class="nav">
       <ul class="nav__list">
