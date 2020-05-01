@@ -4,8 +4,15 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
+@import "nav.css";
 
 /* Default 스타일 */
+
+/* box안에 padding을 추가해도 box-size영향 X */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
   padding: 10px 25px;
@@ -15,6 +22,7 @@ body {
     sans-serif;
 }
 
+/* 링크 색깔 설정 */
 a {
   color: inherit;
 }
