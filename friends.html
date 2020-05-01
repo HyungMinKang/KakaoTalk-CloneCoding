@@ -36,7 +36,7 @@
     <header class="header">
       <div class="header__header-column">
         <!-- 타이틀 -->
-        <h1 class="header__title">Friends</h1>
+        <h1 class="header__title">친구</h1>
       </div>
       <!-- 아이콘 리스트 -->
       <div class="header__header-column">
@@ -54,39 +54,45 @@
     <main class="friends">
       <!-- 헤더 부분과 연결된 부분  다른 friend와 구별필요한 부분  -->
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <!-- 컬럼1 -->
           <div class="friend__column">
             <!-- 프로필 사진 -->
-            <img src="images/avatar1.jpg" class="g-avatar friend__avatar" />
+            <img src="images/plus.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <!-- 이름 -->
               <span class="friend__name">
-                Someone
+                강형민
               </span>
               <!-- 상태창 -->
               <span class="friend__status">
-                nomadcoders.co
+                기억보다는 기록
               </span>
             </div>
           </div>
           <!-- 컬럼2  내용이 없어도 통일감을 위해 필요함 -->
-          <div class="friend__column"></div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>I Wish I Missed MY Ex ---</span>
+              <!-- 재생 아이콘 -->
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
         </div>
       </header>
       <!-- friends__header과 마찬가지로 일반 friend와 구별필요 -->
       <div class="friends__plus">
         <!-- 서브 타이틀 -->
-        <h5 class="friends__title">Plus friend</h5>
+        <h5 class="friends__title">플러스 친구</h5>
         <div class="friends__friend friend">
           <!-- 컬럼1 -->
           <div class="friend__column">
             <!-- 프로필 사진 -->
-            <img src="images/avatar1.jpg" class="g-avatar friend__avatar" />
+            <img src="images/kakao-plus.png" class="friend__avatar" />
             <div class="friend__content">
               <!-- 이름 -->
               <span class="friend__name">
-                Plus Friend
+                플러스친구
               </span>
               <!-- plus friend는 상태창 없음  -->
             </div>
@@ -95,32 +101,191 @@
           <div class="friend__column"></div>
         </div>
       </div>
+
       <!-- 동일한 양식의 friend들의 list == 복붙하면 몇명이든 추가가능-->
       <ul class="friends__list">
         <!-- 서브 타이플 -->
-        <h5 class="friends__title">Friend 14</h5>
+        <h5 class="friends__title">친구 224</h5>
         <!-- friend의 베이스 폼 -->
-        <li class="friends__friend friend friend--lg">
+        <li class="friends__friend friend">
           <!-- 컬럼1 -->
           <div class="friend__column">
-            <img src="images/avatar1.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar1.jpg" class="friend__avatar" />
             <div class="friend__content">
               <!-- 이름 -->
               <span class="friend__name">
-                Someone
+                김승원
               </span>
               <!-- 상태창 -->
               <span class="friend__status">
-                nomadcoders.co
+                안녕하세
+              </span>
+            </div>
+          </div>
+          <!-- 컬럼2 -->
+          <div class="friend__column"></div>
+        </li>
+        <li class="friends__friend friend">
+          <!-- 컬럼1 -->
+          <div class="friend__column">
+            <img src="images/avatar2.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <!-- 이름 -->
+              <span class="friend__name">
+                강명지
+              </span>
+              <!-- 상태창 -->
+              <span class="friend__status"> </span>
+            </div>
+          </div>
+          <!-- 컬럼2 -->
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span
+                >EX-Kiana Lede
+                <i class="fas fa-play"></i>
+              </span>
+              <!-- 재생 아이콘 -->
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <!-- 컬럼1 -->
+          <div class="friend__column">
+            <img src="images/noprofile.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <!-- 이름 -->
+              <span class="friend__name">
+                강한준
+              </span>
+              <!-- 상태창 -->
+              <span class="friend__status"> </span>
+            </div>
+          </div>
+          <!-- 컬럼2 -->
+          <div class="friend__column"></div>
+        </li>
+        <li class="friends__friend friend">
+          <!-- 컬럼1 -->
+          <div class="friend__column">
+            <img src="images/avatar3.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <!-- 이름 -->
+              <span class="friend__name">
+                건우
+              </span>
+              <!-- 상태창 -->
+              <span class="friend__status"> </span>
+            </div>
+          </div>
+          <!-- 컬럼2 -->
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                Feeling-HYNN(박혜원)
+                <i class="fas fa-play"></i>
+              </span>
+              <!-- 재생 아이콘 -->
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <!-- 컬럼1 -->
+          <div class="friend__column">
+            <img src="images/avatar6.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <!-- 이름 -->
+              <span class="friend__name">
+                기종이
+              </span>
+              <!-- 상태창 -->
+              <span class="friend__status">
+                종하르방
               </span>
             </div>
           </div>
           <!-- 컬럼2 -->
           <div class="friend__column">
             <div class="friend__now-listening">
-              <span>지독하게-FTLSLAND</span>
+              <span
+                >When We Were Young ....
+                <i class="fas fa-play"></i>
+              </span>
               <!-- 재생 아이콘 -->
-              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <!-- 컬럼1 -->
+          <div class="friend__column">
+            <img src="images/avatar5.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <!-- 이름 -->
+              <span class="friend__name">
+                김소미
+              </span>
+              <!-- 상태창 -->
+              <span class="friend__status">나답게 </span>
+            </div>
+          </div>
+          <!-- 컬럼2 -->
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span
+                >not ur friend-Jeremy Zu...
+                <i class="fas fa-play"></i>
+              </span>
+              <!-- 재생 아이콘 -->
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <!-- 컬럼1 -->
+          <div class="friend__column">
+            <img src="images/avatar7.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <!-- 이름 -->
+              <span class="friend__name">
+                김지훈
+              </span>
+              <!-- 상태창 -->
+              <span class="friend__status">LDI </span>
+            </div>
+          </div>
+          <!-- 컬럼2 -->
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span
+                >밤(Time for te moon ni...)
+                <i class="fas fa-play"></i>
+              </span>
+              <!-- 재생 아이콘 -->
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <!-- 컬럼1 -->
+          <div class="friend__column">
+            <img src="images/avatar8.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <!-- 이름 -->
+              <span class="friend__name">
+                김태우
+              </span>
+              <!-- 상태창 -->
+              <span class="friend__status">
+                😀
+              </span>
+            </div>
+          </div>
+          <!-- 컬럼2 -->
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span
+                >괜찮아도 괜찮아(That's ok..)
+                <i class="fas fa-play"></i>
+              </span>
+              <!-- 재생 아이콘 -->
             </div>
           </div>
         </li>
