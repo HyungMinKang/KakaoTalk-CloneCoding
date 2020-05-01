@@ -55,23 +55,26 @@
       <!-- chat__list : chat 부모 자식 -->
       <ul class="chats__list">
         <li class="chats__chat chat">
-          <!-- chat : username, preview, content.. 더이상 chats이라고 쓸필요 없는 이유 -->
-          <div class="chat__column">
-            <!-- 채팅방 이미지  @폴더명과 파일명 둘다 소문자여야함 -->
-            <!-- g-avatar 전역 이미지 클래스 -->
-            <img src="images/avatar1.jpg" class="chat__avatar g-avatar" />
-            <!-- 채팅방 내용 -->
-            <div class="chat__content">
-              <!-- 채팅방 참여자 -->
-              <span class="chat__username">김성준</span>
-              <!-- 채팅방 미리보기 내용 -->
-              <span class="chat__preview">뭐하누</span>
+          <!-- 채팅방 링크 -->
+          <a href="chat.html">
+            <!-- chat : username, preview, content.. 더이상 chats이라고 쓸필요 없는 이유 -->
+            <div class="chat__column">
+              <!-- 채팅방 이미지  @폴더명과 파일명 둘다 소문자여야함 -->
+              <!-- g-avatar 전역 이미지 클래스 -->
+              <img src="images/avatar1.jpg" class="chat__avatar g-avatar" />
+              <!-- 채팅방 내용 -->
+              <div class="chat__content">
+                <!-- 채팅방 참여자 -->
+                <span class="chat__username">김성준</span>
+                <!-- 채팅방 미리보기 내용 -->
+                <span class="chat__preview">뭐하누</span>
+              </div>
             </div>
-          </div>
-          <!-- 채팅방 타임스탬프 -->
-          <div class="chat__column">
-            <span class="chat__timestamp">어제</span>
-          </div>
+            <!-- 채팅방 타임스탬프 -->
+            <div class="chat__column">
+              <span class="chat__timestamp">어제</span>
+            </div>
+          </a>
         </li>
       </ul>
     </main>
