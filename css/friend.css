@@ -4,6 +4,7 @@
   align-items: center;
 }
 
+/* avatar 기본값 (가장 작은값) */
 .friend .friend__avatar {
   width: 50px;
   height: 55px;
@@ -15,10 +16,14 @@
   height: 55px;
   border-radius: 30%;
 }
+
+/* 제일 큰 아바타- friends: 마이프로필/ more 페이지 프로필 */
 .friend__avatar.g-avatar {
   width: 60px;
   height: 70px;
 }
+
+/* 중간 사이즈 아바타 */
 .friend__avatar.m-avatar {
   width: 60px;
   height: 60px;
@@ -33,13 +38,14 @@
   margin-right: 20px;
 }
 
+/* 친구이름- 상태창과 거리위해 margin-bottom */
 .friend__content .friend__name {
   display: block;
   margin-bottom: 7px;
   font-size: 20px;
   font-weight: 500;
 }
-
+/* 상태창 + chats부분 bottom-text */
 .friend__content .friend__status,
 .friend__content .friend__bottom-text,
 .friend .chat__timestamp {
@@ -55,6 +61,7 @@
   font-size: 12px;
 }
 
+/* 듣고 있는 노래 디자인 */
 .friend .friend__now-listening {
   border: 2px solid #54cd79;
   border-radius: 15px;

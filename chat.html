@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body class="chats-body">
     <!-- 상단 네비게이션바  **페이지공통부분**-->
     <div class="status-bar">
       <!-- 네비게이션 왼쪽- 시간 -->
@@ -40,7 +40,7 @@
           <i class="fas fa-arrow-left "></i>
         </a>
         <!-- 타이틀 -->
-        <h1 class="header__title">Best friend</h1>
+        <h1 class="header__title">김성준과 아이들</h1>
       </div>
       <!-- 아이콘 리스트 -->
       <div class="header__header-column">
@@ -51,35 +51,103 @@
       </div>
     </header>
     <!-- chat 콘텐츠 -->
-    <main class="chat">
+    <main class="chat-screen">
       <!-- 메시지 리스트 -->
       <ul class="chat__messages">
         <!-- 채팅방 타임 스탬프 -->
-        <span class="chat__timestamp">Friday, May, 1, 2020</span>
+        <span class="chat__timestamp">2020년 5월 4일</span>
         <!-- 메시지 타입 1 - 아바타+ 작성자+ 메시지 + 타임스탬프 순  3컬럼 구성-->
         <li class="incoming-message message">
           <!-- 컬럼1 아바타 -->
-          <img src="images/avatar3.jpg" class="message__avatar" />
+          <img src="images/avatar7.jpg" class="message__avatar" />
           <!-- 컬럼2 작성자+메시지 -->
           <div class="message__content">
-            <span class="message__author">김성준</span>
-            <div class="message__bubble">
-              뭐하누
-            </div>
-            <!-- 컬럼3 타임스탬프 -->
-            <span class="message__titmestamp">15:19</span>
+            <span class="message__author">황경성</span>
+            <span class="message__bubble">
+              롤챔스본다
+            </span>       
           </div>
+          <!-- 컬럼3 타임스탬프 -->
+          <span class="message__timestamp">18:55</span>
+        </li>
+        <li class="incoming-message message">
+          <!-- 컬럼1 아바타 -->
+          <img src="images/avatar8.jpg" class="message__avatar" />
+          <!-- 컬럼2 작성자+메시지 -->
+          <div class="message__content">
+            <span class="message__author">최영우</span>
+            <span class="message__bubble">
+              롤챔스보고 싶어서 공부하기 ㅈ같은거아님?
+            </span>       
+          </div>
+          <!-- 컬럼3 타임스탬프 -->
+          <span class="message__timestamp">18:47</span>
+        </li>
+         <!-- 메시지 타입 1 - 아바타+ 작성자+ 메시지 + 타임스탬프 순  3컬럼 구성-->
+         <li class="incoming-message message">
+          <!-- 컬럼1 아바타 -->
+          <img src="images/avatar7.jpg" class="message__avatar" />
+          <!-- 컬럼2 작성자+메시지 -->
+          <div class="message__content">
+            <span class="message__author">황경성</span>
+            <span class="message__bubble">
+              오늘 결승이다. 이건봐야지
+            </span>       
+          </div>
+          <!-- 컬럼3 타임스탬프 -->
+          <span class="message__timestamp">18:55</span>
+        </li>
+        <li class="incoming-message message">
+          <!-- 컬럼1 아바타 -->
+          <img src="images/avatar8.jpg" class="message__avatar" />
+          <!-- 컬럼2 작성자+메시지 -->
+          <div class="message__content">
+            <span class="message__author">최영우</span>
+            <span class="message__bubble">
+              동섭이는 벌써형민이랑 직관간거 아니누
+            </span>       
+          </div>
+          <!-- 컬럼3 타임스탬프 -->
+          <span class="message__timestamp">18:58</span>
         </li>
         <!-- 메시지 타입2 타임스탬프 + 메시지  2컬럼-->
-        <li class="incoming-message message">    
+        <li class="sent-message message">    
           <!-- 컬럼1 타임스탬프 -->
-          <span class="message__titmestamp">15:19</span>
+          <span class="message__timestamp">19:22</span>
           <!-- 컬럼2 메시지 -->
           <div class="message__content">
-            <div class="message__bubble">
-              뭐하누
-            </div>
+            <span class="message__bubble">
+              ㅋㅋㅋ오늘 결승이었누
+            </span>
           </div>
+        </li>
+         <!-- 메시지 타입 1 - 아바타+ 작성자+ 메시지 + 타임스탬프 순  3컬럼 구성-->
+         <li class="incoming-message message">
+          <!-- 컬럼1 아바타 -->
+          <img src="images/avatar7.jpg" class="message__avatar" />
+          <!-- 컬럼2 작성자+메시지 -->
+          <div class="message__content">
+            <span class="message__author">황경성</span>
+            <span class="message__bubble">
+              3대 떡났누
+            </span>
+          </div>
+          <!-- 컬럼3 타임스탬프 -->
+          <span class="message__timestamp">20:24</span>
+        </li>
+         <!-- 메시지 타입 1 - 아바타+ 작성자+ 메시지 + 타임스탬프 순  3컬럼 구성-->
+         <li class="incoming-message message">
+          <!-- 컬럼1 아바타 -->
+          <img src="images/avatar5.jpg" class="message__avatar" />
+          <!-- 컬럼2 작성자+메시지 -->
+          <div class="message__content">
+            <span class="message__author">심동섭</span>
+            <span class="message__bubble">
+            ㅋㅋ몰랐음 시간빠르다
+            </span>
+          </div>
+          <!-- 컬럼3 타임스탬프 -->
+          <span class="message__timestamp">21:43</span>
         </li>
       </ul>
       </ul>

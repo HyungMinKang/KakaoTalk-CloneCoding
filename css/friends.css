@@ -1,3 +1,4 @@
+/* friends 페이지 부분 플러스 친구 디자인 */
 .friends .friends__plus {
   border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #f7f7f7;
@@ -5,6 +6,7 @@
   margin: 20px 0px;
 }
 
+/* friends 페이지 부분 플러스 친구 서브타이틀 + 친구224 부분  */
 .friends__plus .friends__title,
 .friends__list .friends__title {
   font-size: 14px;
@@ -13,6 +15,7 @@
   margin-bottom: 10px;
 }
 
+/* 각 친구(횡별) 간격 */
 .friends__list .friend {
   margin: 20px 0px;
 }
