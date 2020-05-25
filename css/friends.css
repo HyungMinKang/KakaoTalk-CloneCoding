@@ -19,3 +19,7 @@
 .friends__list .friend {
   margin: 20px 0px;
 }
+
+.friends {
+  height: 110vh;
+}
