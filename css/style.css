@@ -12,6 +12,7 @@
 @import "settings.css";
 @import "chat.css";
 @import "mobile.css";
+
 /* Default 스타일 */
 /* box안에 padding을 추가해도 box-size영향 X */
 * {
@@ -19,7 +20,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: beige;
   padding: 10px 25px;
   color: #020202;
   font-family: "Noto Sans", "Do Hyeon", -apple-system, BlinkMacSystemFont,
@@ -47,3 +48,4 @@ a {
 main {
   animation: fadeIn 0.5s ease-in-out;
 }
+

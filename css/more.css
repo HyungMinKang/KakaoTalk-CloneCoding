@@ -22,7 +22,7 @@
 /* suggestion 부분 서브타이틀 */
 .more__suggestions .more__title {
   padding-top: 20px;
-  border-top: 1px solid #f7f7f7;
+  border-top: 1px solid black;
   margin-bottom: 20px;
 }
 

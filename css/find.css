@@ -20,7 +20,7 @@
 /* find main 부분 추천친구 정렬 */
 .find__recommend {
   padding-top: 20px;
-  border-top: 1px solid #f7f7f7;
+  border-top: 1px solid black;
 }
 
 /* 추천친구 서브타이틀 */
@@ -33,7 +33,7 @@
 
 /* 추천친구 횡별로 정렬 */
 .friend__column .friend__add-btn {
-  background-color: #f5f5f5;
+  background-color: bisque;
   padding: 15px;
   border-radius: 5px;
   display: flex;
